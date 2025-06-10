@@ -18,10 +18,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "abs-website", // Updated Service ID
-        "template_abs", // Updated Template ID
+        "ABS construction", // Updated Service ID
+        "template_mq0dbxe", // Updated Template ID
         form.current,
-        "public_key_abs" // Updated Public Key
+        "8vbLscYndolL5MnXd" // Updated Public Key
       )
       .then(
         (result) => {
